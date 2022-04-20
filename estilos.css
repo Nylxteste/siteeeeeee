@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;800&display=swap');
+
+body{
+    font-family: 'Public Sans', sans-serif;
+
+}
+
+/*
+* utilizado para selecionar todos os elementos html da página
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black
+}
+body{
+    background-color: #fcecac;
+}
+
+/* reset de imagem
+*/
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* CABECALHO  1170 px é a largura maxima de uma tela convencional*/
+
+.cabecalho .logo .imagem{
+    width: 110px;
+    position: relative;
+    bottom: 10px;
+
+}
+.heading{
+    background-color: #fcecac;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+    max-width: 1270px;
+    margin: 0 auto;
+    height: 125px;
+    position: relative;
+}
+
+.cabecalho .logo{
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho .titulo{
+    margin-left: 7px;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+    font-weight: 800;
+
+}
+.cabecalho .titulo:hover{
+    color: #1ED760;
+}
+
+.cabecalho .menu{
+    display: flex;
+    
+}
+.cabecalho .navegacao .menu{
+    display: flex;
+    
+}
+
+.cabecalho .navegacao .menu .item{
+    margin: 10px;
+}
+
+.cabecalho .navegacao .menu .item a{
+    padding: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+.cabecalho .navegacao .menu .item a:hover{
+    background-color: #daba6b;
+    color:white
+}
+/* CABECALHO */
+
+
+/*        PAINEL       */
+#mova-eu{
+    margin-left: -400px;
+    margin-top: -100px  ;
+}
+.conteudo-principal .paineis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    position: relative;
+    
+    
+}
+#cansei{
+    margin-left: 30vw;
+    margin-bottom: 20vh;
+    margin-top: -20vh;
+    
+}
+#inputEmail{
+    width: 500px;
+    height: 40px;
+    border-radius: 4px;
+}
+.conteudo-principal .paineis .imagem-painel{
+    min-width: 100%;
+    position: absolute;
+    height: 100%;
+    background-size: coverr;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    filter: brightness(80%);
+    
+}
+
+.conteudo-principal .paineis .projeto1{
+    background-image: url("https://snapinsta.app/photo.php?photo=https%3A%2F%2Fscontent.cdninstagram.com%2Fv%2Ft51.2885-15%2F83886512_646829859454077_5837971345005468998_n.jpg%3Fstp%3Ddst-jpg_e35%26_nc_ht%3Dscontent.cdninstagram.com%26_nc_cat%3D109%26_nc_ohc%3DI-JYA_Db93QAX-hWLjg%26edm%3DAJBgZrYBAAAA%26ccb%3D7-4%26oh%3D00_AT-H6bDtfC55zCFXxRQ7qUn-w0MJfllaupSCYo323rcTHw%26oe%3D6263FB05%26_nc_sid%3D78c662");
+    background-size: 100%;
+}
+.conteudo-principal .paineis .seta{
+    background-image: url('seta.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    text-indent: 100%;
+    overflow: hidden;
+}
+.conteudo-principal .paineis .seta.btn-voltar{
+    left: 20px;
+    transform: rotateY(180deg);
+}
+
+.conteudo-principal .paineis .seta.seta.btn-avancar{
+    right: 20px;
+}
+
+.conteudo-principal .paineis .titulo{
+    color: white;
+    width: 50vw;
+}
+
+/*        PAINEL       */
+.espaco{
+    height: 60px;
+}
+
+/* SEGUNDA PARTE, PAINEL E INFORMAÇÕES */
+
+.quem-somos .colunas{
+    display: flex;
+    justify-content: space-around;
+    height: 68vh;
+    width: 25vw;
+    margin-left: -12vw;
+    margin-top: 5vh;
+    text-align: center;
+    padding: 5px;
+    text-align: justify;
+    transition: 0.5s ease-in-out;
+}
+#futebolAmericano{
+    margin-left: 16vw;
+}
+#futebolFlag{
+    margin-top: -23px;
+}
+.colunas h2 :hover{
+    font-size: 15px;
+    padding: 15px;
+    color: blueviolet !important;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.colunas h2{
+    font-size: 15px;
+    padding: 15px;
+    
+    text-decoration: underline;
+    text-transform: uppercase;
+    
+}
+#americano{
+    margin-top: 10vh;
+    border-radius: 3px;
+padding: 20px;
+margin-left: -5vw;
+height: 2px;
+
+}
+
+
+
+#teste{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+/* Div de exibição linha do tempo  */
+
+.colunas #exibicaoLinha{
+margin-top: 2vw;
+width: 20vw;
+margin-left: 45vw;
+border-radius: 3px;
+padding: 0px;
+height: 20vh;
+}
+#exibicaoLinha #linhaTempoRight{
+    text-align: justify;
+    width: 25vw;
+}
+
+#linha-tempo{
+    width: 5vw;
+    background-size: 150%;
+    background-position: 110px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0vw;
+}
+#linha-tempo nav{
+    width: 10px;
+    position: relative;
+    left:.50vw;
+
+}
+#linha-tempo li{
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-top: 5vh;
+    font-size: 12px;
+    margin-bottom: 50px;
+    list-style: url('https://lh3.googleusercontent.com/pw/AM-JKLUJJVF4g6utdmYcha0hLHV0Bg7QaSwcfACD_N64zYeQ5Rz_kvx0SlRuOJdIiDgggxIOUKViv_GKFC0ek3C74cuwVW-6kQRKIJYJmirW3bF8aqe4a_vJjgP9dxHMGsLDAeR9qPYS3yXOI_duEd7D1rjt=s24-no?authuser=0');
+}
+
+#linha-tempo li:hover{
+    margin-top: 5vh;
+    margin-bottom: 50px;
+    list-style: url('https://lh3.googleusercontent.com/pw/AM-JKLX1tHF7OhsyAYjRwxcSDEiHuDkuBYgt1eigp3NfH62XG_lipHy8VGDjzPSTzRPo11g0k8P6WMk45j1ba3BqZoNCk5Y_AEE8Y-LByB7qELbBS7mPpUrMYTF0NFwjjWvcXy1XGr4HQ8VFxQKs-l6D0mEZ=s24-no?authuser=0');
+}
+#linha-hover{
+    position: relative;
+    border: 1px solid rgba(128, 128, 128, 0.603);
+    border-radius: 40px;
+    height: 52vh;
+    width: 0vw;
+    left: -4vw;
+}
+
+#quem-somos .conteudo{
+    display: flex;
+
+    background-size: cover;
+    min-width: 100%;
+    height: 700px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    filter: brightness(80%);
+}
+#quem-somos-3 .conteudo{
+    display: flex;
+    background-image: url(./WhatsApp\ Image\ 2022-04-18\ at\ 17.23.07.jpeg);
+    background-size: cover;
+    min-width: 100%;
+    height: 700px;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    filter: brightness(80%);
+}
+.quem-somos .conteudo #quem-somos{
+    background-image: none;
+}
+.quem-somos .conteudo .informacoes{
+    position: absolute;
+    right: 68vw;
+width: 350px;
+text-align: justify;
+padding: 25px;
+    
+}
+#jogo1{
+    padding: 15px;
+    background-color: white;
+    margin-left: 63vw;
+    opacity: 80%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-top: 10px;
+
+}
+#jogo1 img{
+    width: 150px;
+}
+#quem-somos{
+    margin-bottom: 60px;
+
+}
+.informacoes .titulo{
+    color: #daba6b;
+}
+.informacoes .texto{
+    color: rgb(252, 250, 250);
+    font-size: 20px;
+}
+i{
+    color: white;
+}
+
+.quem-somos .conteudo{
+display: flex;
+justify-content: space-between;
+}
+
+/*       RODAPÉ      */
+
+.foot{
+    background-color: #fcecac;
+}
+
+.rodape{
+    
+    height: 220px;
+}
+
+.rodape .navegacao{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 280px;
+ 
+}
+.rodape .redes-sociais{
+    display: flex;
+}
+
+.rodape .navegacao .logo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+
+}
+
+.navegacao .logo .imagem{
+    width: 150px;
+    
+}
+
+.navegacao .logo{
+    margin-bottom: 30px;
+
+}
+.foot .rodape .navegacao .logo, .rodape .redes-sociais{
+    
+    
+    justify-content: center;
+}
+.copyright{
+    
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rodape .redes-sociais a{
+    display: flex;
+border: 2px solid black;
+margin: 0 10px;
+font-size: 30px;
+padding: 15px;
+width: 65px;
+border-radius: 50%;
+
+
+
+}
+
+.rodape .redes-sociais a:hover{
+
+    background-color: #daba6b;
+}
+
+
+
+
+/*       RODAPÉ      */
+
+
+.rodape .navegacao .logo,
+.rodape .navegacao .redes-sociais{
+   
+    justify-content: center;
+}
